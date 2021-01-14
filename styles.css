@@ -1,0 +1,156 @@
+/* Цветовое решение — https://colorhunt.co/palette/66129 */
+
+/* При наведении на ссылки цвет будет менять на этот */
+a:hover {
+  color: #d7fbe8;
+}
+
+body {
+  margin: 0;
+  /* Выравниваем любой текст, у которого нет width */
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #1fab89;
+  font-size: 600%;
+  /* Выравниваем по часовой: север и юг — 0, восток и запад автоматически */
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #1fab89;
+  /* 1 rem = 16 pxl */
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: dotted #1fab89 6px;
+  border-bottom: none;
+  width: 60%;
+}
+
+/* Нижние ссылки */
+.footer-link {
+  color: #11999E;
+  margin: auto 5px auto 5px;
+}
+
+/* Кнопка Contact me */
+.btn {
+  color: #11999E;
+}
+
+.skill-row {
+  margin: 0 auto 0 auto;
+}
+
+.end-text {
+  color: #d7fbe8;
+  margin-bottom: 0;
+}
+
+.simple-text {
+  color: #40514E;
+  font-size: 120%;
+}
+
+.top-container {
+  background-color: #d7fbe8;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #9df3c4;
+}
+
+.bottom-container {
+  background-color: #62d2a2;
+  margin-bottom: 0;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.sun-picture {
+  position: absolute;
+  right: 10%;
+  top: 300px;
+  height: 150px;
+  width: 150px;
+}
+
+.first-picture {
+  height: 250px;
+  width: 250px;
+}
+
+.map-picture {
+  height: 700px;
+  width: 700px;
+}
+
+.table-picture {
+  height: 600px;
+  width: 600px;
+}
+
+.BUTTON-CONTACT-ME {
+  margin: 20px auto 20px auto;
+  background: #62D2A2;
+  background-image: -webkit-linear-gradient(top, #62D2A2, #1FAB89);
+  background-image: -moz-linear-gradient(top, #62D2A2, #1FAB89);
+  background-image: -ms-linear-gradient(top, #62D2A2, #1FAB89);
+  background-image: -o-linear-gradient(top, #62D2A2, #1FAB89);
+  background-image: -webkit-gradient(to bottom, #62D2A2, #1FAB89);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 20px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON-CONTACT-ME:hover {
+  border: solid #1FAB89 1px;
+  background: #9DF3C4;
+  background-image: -webkit-linear-gradient(top, #9DF3C4, #1FAB89);
+  background-image: -moz-linear-gradient(top, #9DF3C4, #1FAB89);
+  background-image: -ms-linear-gradient(top, #9DF3C4, #1FAB89);
+  background-image: -o-linear-gradient(top, #9DF3C4, #1FAB89);
+  background-image: -webkit-gradient(to bottom, #9DF3C4, #1FAB89);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
